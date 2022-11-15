@@ -12,6 +12,7 @@
   &:hover {
     transform: scale(1.2);
     z-index: 2;
+
   }
 
   &:hover .infos {
@@ -20,6 +21,7 @@
   }
 
   .infos {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -34,11 +36,12 @@
     opacity: 0;
     transform: scaleY(0);
     transition: 0.3s;
+
   }
   img {
     height: 100px;
     width: 160px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px;    
   }
 }
